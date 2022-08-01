@@ -21,10 +21,10 @@ function App() {
       });
     }
     createPokemonObject(data.results)
-    await console.log(allPokemons)
   }
   useEffect(()=>{
     getAllPokemons()
+     // eslint-disable-next-line
   },[])
 
   return (
