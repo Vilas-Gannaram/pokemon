@@ -22,6 +22,7 @@ export default function PokemonDetails() {
     return () => {
       clearTimeout(identifier);
     };
+    // eslint-disable-next-line
   }, []);
   return (
     <>
